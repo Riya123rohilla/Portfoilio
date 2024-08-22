@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: #d8f9fa;
+    color: #333;
+    font-size:20px;
+    background-image: url("My awesome Portfolio_files/200e94c9e39bc61992793aea6977103f.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: #1c0a0a;
+    padding: 40px 0;
+    text-align: center;
+    
+
+}
+
+header h1 {
+    margin: 0;
+    /* font-family: "Edu VIC WA NT Beginner", cursive; */
+    font-size:30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    /* font-family: "Edu VIC WA NT Beginner", cursive; */
+    font-size:30px;
+}
+
+.about-section, .skills-section, .contact-section {
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-section {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.skills-section ul {
+    list-style-type: none;
+    padding: 20;
+    text-align: right;
+}
+
+.skills-section ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+/* body {
+   font-family: "Edu VIC WA NT Beginner", cursive;
+} */
+
+/* h1, h2, h3 {
+    font-family: 'Georgia', serif; 
+} */
+
+/* p, a{
+   font-family: 'Verdana', sans-serif;
+} */
+
+footer {
+    color: #1b1616;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+.pic{
+    float:right;
+    height:360px;
+    width:360px;
+}
+.image{
+    float:right;
+    height:250px;
+    width:250px;
+    margin-left:20px;
+    margin-right:20px;
+}
+#bullet{
+    text-align:center;
+    font-size:30px;
+}
+.page{
+    text-align:left;
+}
+.logo{
+    background-image: url("document2.jpeg");
+}
+.main{
+    font-size: 50px;
+    font-weight: 700px;
+}
+span{
+    color:rgb(165, 24, 24);
+    font-size:40px;
+}
+p{
+    font-size:25px;
+}
+.page{
+    border:8px solid rgb(159, 126, 150);
+    border-radius:20px;
+    display:inline-block;
+    padding:8px;
+}
+.rem{
+    color: rgb(159, 30, 30);
+    font-size:25px;
+}

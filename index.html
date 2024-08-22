@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="main"><u>MY AWESOME PORTFOLIO</u></h1>
+            <nav>
+                <ul>
+                    <li><a class="rem" href="http://127.0.0.1:5500/index.html#about">About Me</a></li>
+                    <li><a class="rem" href="http://127.0.0.1:5500/index.html#project">Project</a></li>
+                    <li><a class="rem" href="http://127.0.0.1:5500/index.html#skills">Skills</a></li>
+                    <li><a class="rem" href="http://127.0.0.1:5500/index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="main"><u>ABOUT ME</u></h2>
+            <p><span>Hello! My name is Riya Rohilla </span>
+                <img class="pic" src="My awesome Portfolio_files/images.jpeg">
+                and I'm a recent graduate with a strong passion for [Your Field, e.g., web development, data science, etc.]. I have a keen interest in creating innovative solutions and am constantly learning new technologies to stay updated with the industry trends.</p>
+                <p>During my academic journey, I completed a project on [Briefly describe your project], which allowed me to apply my skills in [mention key technologies or concepts used]. This experience has solidified my passion for [your field], and I'm excited to start my career in this field.</p>
+                <p>As a fresher, I am eager to contribute my knowledge and enthusiasm to a dynamic team, where I can continue to grow and develop my skills. I am highly motivated, detail-oriented, and always open to new challenges that will help me learn and improve.</p>
+                <p>When I'm not coding or learning, I enjoy [mention any hobbies or interests, e.g., reading, traveling, etc.], which helps me stay creative and balanced.</p>
+        </div>
+    </section>
+
+    <section id="project" class="project-section">
+        <div class="container">
+            <h2 class="main"><u>MY PROJECT</u></h2>
+            <div class="project">
+                <h3>Project Title</h3>
+                <p><strong>Description:</strong> A brief overview of the project.</p>
+                <p>Eternal University ,navgurukul and SBA (SHREE BADRIKA ASHRAM) aims to blend modern education with spiritual values. It emphasizes holistic development, aiming to produce professionals who are not only skilled but also morally and ethically grounded.</p>
+                <a href="https://riyangsbaeu.netlify.app/"> here's my project </a>
+                <p><strong>Technologies Used:</strong> HTML, CSS, Chat GPT and other search engine like: mozilla fire-fox ,google chrome etc.</p>
+                <p><strong>My Role:</strong> in this project,we made a combine website of eternal university navgurukul and Shree badrika ashram. 
+                    it is a team work.there are 17 members in our group.everyone worked hard to make our first project my role in this project is that i find the images for the projectand edited the project.</p> .<p></p>
+                <p><strong>Challenges:</strong> lack of knowledge about HTML and CSS.the leader of my group was absent on that day.</p>
+                <p><strong>Outcome:</strong> in the result, we got a website. at a time of persentation we also got feedback,some were good and some were bad.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="main"><u>SKILLS</u></h2>
+            <img class="image" src="./riya Portfolio_files/document.jpeg">
+            <img class="image" src="./riya Portfolio_files/document1.jpeg">
+
+               <div id="bullet">
+                   <div class="page">
+                     <li>HTML</li>
+                <li>CSS</li>
+                <li>Problem-Solving</li>
+                <li>Teamwork</li>
+                <li>coordination</li>
+                </div>
+                
+              </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="main"><u>CONTACT</u></h2>
+            <p>Email: <a href="http://127.0.0.1:5500/riyarohilla24@navgurukul.org">riyarohilla24@navgurukul.org</a></p>
+            <p>phone no.: <a href="http://127.0.0.1:5500/index.html#">9736724973</a> </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 My awesome Portfolio</p>
+        </div>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+    </style>
+
+</body></html>
